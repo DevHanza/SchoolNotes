@@ -7,7 +7,7 @@
     "install:client": "cd client && npm install",
     "install:server": "cd server && npm install",
     "install:everything": "npm run install:client && npm run install:server",
-    "start": "npm run install:everything && concurrently \"cd server && npm start\" \"cd client && npm start\""
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\""
   },
   "author": "DevHanza",
   "license": "ISC",
@@ -15,3 +15,4 @@
     "concurrently": "^9.1.0"
   }
 }
+
