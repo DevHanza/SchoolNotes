@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/DevHanza/habitzy" alt="Version"/>
+  <!-- <img src="https://img.shields.io/github/v/release/DevHanza/SchoolNotes" alt="Version"/> -->
   <img src="https://img.shields.io/github/license/DevHanza/SchoolNotes" alt="License"/>
   <img src="https://img.shields.io/badge/node-18+-darkgreen.svg" alt="Node"/>
   <img src="https://img.shields.io/badge/Angular-18.x-red.svg" alt="Angular"/>
@@ -72,6 +72,22 @@ MDB_URL = your_mongodb_connection_string
 ```bash
 npm run start
 ```
+
+## 💻 Tech Stack
+
+### Frontend
+
+- Angular v18
+- Typescript
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- [Mongoose](https://mongoosejs.com/)
+- [cors](https://www.npmjs.com/package/cors)
+
 
 ## 🏭 Architecture Overview
 
